@@ -1,0 +1,28 @@
+[project]
+name = "retina-fusion"
+version = "0.1.0"
+description = "Multimodal retinal analysis pipeline using RetFound and AutoMorph"
+authors = ["Mert Enbiyaoglu <mertenbiyaoglu@gmail.com>"]
+readme = "README.md"
+license = {text = "MIT"}
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "torch",
+    "timm",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "pingouin",
+    "statsmodels",
+    "opencv-python",
+    "huggingface-hub",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
