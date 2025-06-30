@@ -1,0 +1,29 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Environments
+venv/
+.env
+.venv/
+
+# Output folders
+data/
+segmentations/
+features/
+results/
+*.pt
+*.pkl
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
